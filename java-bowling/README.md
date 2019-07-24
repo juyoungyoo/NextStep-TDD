@@ -23,14 +23,14 @@
 
 ---
 ### State info
-| type | isFinish | bowl count c|getScore | calculate(max) | printResult |
-|:---|:---|:---|:---|:---|:---|:---|
-|Ready |F         | Hit/Gutter/Strike|0(0,-1)| 0       | " "  |
-|Hit   |F         | Spare/Miss |1(0,b1)   | 1 (b1)    | b1   |
-|Gutter|F         | Spare/Miss |1(0,0)    | 1 (0) | -    |
-|Strike|T         | -    |1(2,10)   | 1 (10)    | X    |
-|Spare |T         | -    |2(1,10)   | 2 (b1,b2) | b1/  |
-|Miss  |T         | -    |2(0,b1,b2)| 2 (b1,b2) | b1\|b2|
+| type | isFinish | bowl count|getScore | calculate(max) | printResult |
+|:---|:---:|:---:|:---:|:---:|:---:|
+|Ready |F| Hit/Gutter/Strike|0(0,-1)| 0| " "  |
+|Hit   |F| Spare/Miss |1(0,b1)   | 1(b1)| b1   |
+|Gutter|F| Spare/Miss |1(0,0)    | 1(0)| -    |
+|Strike|T| -    |1(2,10)   | 1(10)    | X    |
+|Spare |T| -    |2(1,10)   | 2(b1,b2) | b1/  |
+|Miss  |T| -    |2(0,b1,b2)| 2(b1,b2) | b1\|b2|
 
 ### 출력 결과
 ```
